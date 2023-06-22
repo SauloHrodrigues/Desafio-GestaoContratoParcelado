@@ -20,7 +20,7 @@ public class Programa {
 		Scanner input = new Scanner(System.in);
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		System.out.println("Entre com os dados do contrato:");
-		System.out.print("Número: ");
+		System.out.print("Número do contrato: ");
 		int numeroContrato = input.nextInt();
 		System.out.print("Data: ");
 		LocalDate dataContrato = LocalDate.parse(input.next(), fmt);
