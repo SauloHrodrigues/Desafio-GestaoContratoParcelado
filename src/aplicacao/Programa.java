@@ -19,7 +19,7 @@ public class Programa {
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		System.out.println("Entre com os dados do contrato:");
+		System.out.println("Entre com os dados do contrato a ser calculado:");
 		System.out.print("Número: ");
 		int numeroContrato = input.nextInt();
 		System.out.print("Data: ");
